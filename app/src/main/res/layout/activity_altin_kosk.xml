@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".altin_kosk"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Tarihi Yerler"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Altın Köşk" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        app:srcCompat="@drawable/altin_kosk" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Anadolu Mimarlık ve Mobilya Kültürel Miras Müzesi; Ankara'nin Çankaya ilçesinde bulunmaktadır. Türkiye’nin ilk mimarlık ve mobilya müzesi olan bu müze, 25 Aralık 2008 tarihinde açılmıştır. Müzenin bulunduğu bina, Bilkent'in ünlü Merik Konağı veya halk arasında bilinen adıyla Altın Köşk'tür. Müzenin denetimi, Etnografya Müzesi Müdürlüğünce yapılmaktadır.Binanın mimarisi, Anadolu mimarisinin iç ve dış mekanlarında kullanılan simgeleşmiş 1.000 adet form ve motiften; 30 adet yapıdan (saray, köşk, konak, cami ve ev) örnekler alınarak, zengin bir kültürel birikimin karışımı olarak tasarlanmıştır. Binanın dış kaplamasında kullanılan değerli kızılağaç türü, Amerika Birleşik Devletleri'nden ithal edilmiştir. Bu ağacın günümüzde, Amerika dışına çıkarılması yasaktır. 1996 yılında yapılan binanın ilk sahibi, Amerika'da yaşayan ve orada 'müthiş Türk' olarak tanınan Ali Rıza Bozkurt'tur. Fakat bina önce müzeye çevrilmiş, sonra da satışa çıkarılmıştır."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

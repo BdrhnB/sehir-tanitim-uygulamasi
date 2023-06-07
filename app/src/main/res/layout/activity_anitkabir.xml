@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".anitkabir"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <TextView
+        android:id="@+id/anikabirtextid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Tarihi yerler"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Anıtkabir"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/anitkabir" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="2100dp"
+                android:text="Anıtkabir, Ankara'nın Çankaya ilçesinde yer alan ve Mustafa Kemal Atatürk'ün anıt mezarını içeren komplekstir. Emin Onat ile Orhan Arda'nın tasarımı olan Anıtkabir'in 1944'te başlanan inşası 1953'te tamamlanmıştır. Anıt mezar binası başta olmak üzere çeşitli yapı ve anıtların yanı sıra Barış Parkı olarak adlandırılan ağaçlık alandan oluşur.
+
+Atatürk'ün 10 Kasım 1938'deki ölümünün ardından naaşının, Ankara'da bir anıt mezar inşa edilene kadar Ankara Etnografya Müzesi'nde kalacağı açıklandı. Anıt mezarın inşa edileceği yeri belirlemesi amacıyla hükûmet tarafından bir komisyon kuruldu. Hazırlanan rapor doğrultusunda, 17 Ocak 1939'daki Cumhuriyet Halk Partisi meclis grubu toplantısında yapının Rasattepe'ye inşa edilmesine karar verildi. Bu kararın ardından ilgili arazide kamulaştırma çalışmaları başlatılırken yapının tasarımının belirlenmesi amacıyla 1 Mart 1941'de uluslararası bir proje yarışması açıldı. 2 Mart 1942'de sona eren yarışma sonrasında yapılan değerlendirmeler sonucunda, Emin Onat ve Orhan Arda'nın projesinin, birtakım değişikliklerle uygulanmasına karar verildi ve 9 Ekim 1944'te gerçekleştirilen temel atma töreniyle inşaata başlandı. Dört kısım hâlinde gerçekleştirilen inşaat, yaşanan birtakım sorunlar ve aksaklıklar nedeniyle planlanandan geç olarak Ekim 1953'te tamamlanırken, inşaat devam ederken dahi projede değişiklikler yapılmıştı. 10 Kasım 1953'te gerçekleştirilen bir törenle, Atatürk'ün naaşı buraya nakledildi. 1973'ten beri İsmet İnönü'nün kabrinin de yer aldığı Anıtkabir'e 1966'da defnedilen Cemal Gürsel ile 1960-1963 yılları arasında defnedilen on bir kişinin naaşları ise, 1988'de Anıtkabir'den kaldırıldı.
+
+Kompleksteki ana yapı olan anıt mezar binasının Şeref Holü olarak adlandırılan kısmında Atatürk'ün sembolik bir lahdi yer alırken Atatürk'ün naaşı, bu yapının alt katındaki mezar odasında defnedilmiştir. Komplekse giriş, Aslanlı Yol adı verilen allenin başlangıcından yapılır ve bu yol, tören meydanına ulaşır. Anıt mezar, revaklarla çevrili bu alanın bir kenarında konumlanırken meydanın Aslanlı Yol'un doğrultusundaki diğer kenarında da kompleksten çıkış kısmı yer alır. Aslanlı Yol'un dört köşesi, tören meydanının çıkışı ve meydanın köşeleri olmak üzere komplekste on adet kule, iki heykel grubu ve Atatürk ve Kurtuluş Savaşı Müzesi bulunur. Anıt Bloku olarak adlandırılan tüm bu yapılar, Barış Parkı adı verilen ağaçlık bir alanla çevrilidir. Yapıların betonarme olduğu kompleksteki yapıların yüzeylerinde ve zeminlerinde, farklı tiplerdeki mermer ve travertenler kullanılırken farklı yerlerde kabartma, mozaik, fresk ve oyma tekniğiyle oluşturulan süslemeler vardır. İkinci Ulusal Mimarlık Akımı üslubunda Neoklasik olan yapı, günümüzdeki Türkiye topraklarında tarih boyunca hüküm sürmüş Hitit, Yunan, Selçuklu ve Osmanlı kültürlerinden izler taşır.
+
+Anıtkabir'deki tüm hizmet ve işlerin sorumluluğu Türk Silahlı Kuvvetleri Genelkurmay Başkanlığına aittir ve burada gerçekleştirilecek etkinlikler bir kanunla düzenlenir. Türkiye'deki millî bayramlar ile Atatürk'ün ölüm yıl dönümü olan 10 Kasım günlerinde, hükûmet tarafından Anıtkabir'de resmî anma törenleri gerçekleştirilir. Bunların dışında, devlet protokolüne dâhil kişiler ile diğer gerçek ve tüzel kişi temsilcileri tarafından da törenler düzenlenir. Anıtkabir, yabancı hükûmet yetkililerinin Türkiye'ye düzenlediği resmî ziyaretlerde de zaman zaman uğradığı ve resmî törenlerin gerçekleştirildiği bir yerdir."
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

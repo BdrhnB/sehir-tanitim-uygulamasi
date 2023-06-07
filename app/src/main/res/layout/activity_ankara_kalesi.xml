@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ankara_kalesi"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <TextView
+        android:id="@+id/ankarakalesitextid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Tarihi Yerler"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Kalesi" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        app:srcCompat="@drawable/ankara_kalesi" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:text="Ankara Kalesi, Ankara'nın Altındağ ilçesinde bulunan tarihi bir kale. Ne zaman yapıldığı kesin olarak bilinmemekle birlikte M.Ö. 5. yüzyıl başında Galatların Ankara'ya yerleşmeleri sırasında kalenin var olduğu bilinmektedir. Romalılar, Bizanslılar, Selçuklu Hanedanı ve Osmanlılar dönemlerinde birçok kez onarımdan geçmiştir. Ankara Kalesi dışarıdan görümüne göre daha büyüktür. Her yıl çeşitli festivallere de ev sahipliği yapmaktadır.
+Kale tarih içinde çeşitli dönemler yaşamıştır. MÖ 2. yüzyıl başında Romalıların Galatya'yı işgalinden sonra kent büyüyerek kale dışına taştı. Roma İmparatoru Caracalla MÖ 217'de kalenin surlarını onarttı. MÖ 222 - 260 arasında İmparator Alexander Severus, Perslere yenilince kale kısmen tahrip edildi. 7. yüzyılın 2. yarısından sonra Romalılar kaleyi onarmaya başladı. Bizans döneminde İmparator II. Justinianos MS 668'de dış kaleyi yaptırmıştır, İmparator III. Leon 740'ta kale duvarlarını onarırken iç kale surlarını yükseltmiştir. Bunun ardından İmparator I. Nikiforos 805'te, İmparator I. Basileios 869'da bu kaleyi onarmıştır. Kale 1073 yılında Selçuklu Hanedanının eline geçmiştir. 1101 yılında Haçlılarca ele geçirilen kale 1227 yılında tekrar Selçuklu Hanedanının hakimiyetine girmiştir. I. Alâeddin Keykubad kaleyi yeniden onartmış, 1249'da ise II. İzzeddin Keykavus kaleye yeni ilaveler yapmıştır. Osmanlı döneminde 1832'de Kavalalı İbrahim Paşa tarafından onarımdan geçirilmiş, kalenin dış duvarları genişletilmiştir." />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    </LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".tarihce"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+    <TextView
+        android:id="@+id/ankaratarihcesitextid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ankara Tarihçesi"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:srcCompat="@drawable/manzara" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Ankara tarihi Tunç Çağı Hatti uygarlığına kadar uzanmaktadır. Bunu milattan önce ikinci milenyumda Hitit uygarlığı dönemi, milattan önce onuncu yüzyıldaki Frigya uygarlığı dönemi ve sonrasında sırasıyla Lidyalılar, Farslar, Makedonlar, Galatyalılar, Roma İmparatorluğu, Bizans İmparatorluğu, Selçuklu Hanedanı ve Osmanlı İmparatorluğu dönemleri takip etmektedir. Anadolu'daki insan karakterli ilk fosil primat kalıntıları Fikret Ozansoy tarafından Ankara'da bulunmuş ve Ankarapithecus meteai adı verilmiştir.Ankara'nın bilinen tarihi Paleolitik Çağa kadar uzanmaktadır. Bu döneme ait çeşitli eserlere Gâvurkale, Ergazi, Lodumlu ve Maltepe'de rastlanmıştır. Eti Yokuşu'nda 1937'de Türk Tarih Kurumu tarafından yapılan ve Prof. Dr. Şevket Aziz Kansu tarafından idare edilen kazıların raporu Etiyokuşu hafriyatı raporu adıyla 1937'de basılmıştır. Bu raporda buranın en az MÖ 3000 yıllarında iskan edildi belirtilmektedir. Raporda birinci kısımda graviye içinde elde edilen Paleolitk aletler, ikinci kısımda ise Kalkslitik yerleşim yerinde toplanan keramik ve diğer çeşitli kültür piyesleri ayrıntılı olarak incelenmiş ve envanterleri yayınlanmıştır. Ankara'nın eskiliği ile ilgili buluntular Anadolu Medeniyetleri Müzesi Çağlar boyu Ankara galerisinde sergilenmektedir. İlk basımı 1950 olan Avram Galanti'ye ait Ankara Tarihi Kitabı II. bölümde buluntular gösterilmektedir."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

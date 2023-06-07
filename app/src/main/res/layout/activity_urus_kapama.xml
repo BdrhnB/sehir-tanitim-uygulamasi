@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".urus_kapama">
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Yöresel Yemekleri"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:text="Uruş Kapama" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:srcCompat="@drawable/urus_kapama" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:text="3 kg kuzu kuşbaşı,
+10 diş sarımsak,
+3 orta boy soğan veya 10 adet arpacık soğan,
+1 yemek kaşığı salça,
+3 domates,
+1 tatlı kaşığı pul biber,
+3 sivri biber,
+1 su bardağı nohut,
+1 tatlı kaşığı biber salçası
+3 su bardağı pirinç.
+----Uruş Kapama Nasıl Yapılır----:
+
+Pirinç sıcak tuzlu su bulunan bir kap içinde bekletilir. Bu arada bir başka kap içinde kuşbaşı et, ince doğranmış soğan veya bütün halinde arpacık soğanı, soyulmuş sarımsaklar, pul biber ve tuz konularak harman edilir. Bu harman edilen karışım özel kapama küpecin içine konulur. Küpecin ağzı tencerenin içine gelecek şekilde ters kapatılır. Akşamdan ıslatılan nohut küpecin kenarına yerleştirilir. Üzerine yeterince su konur. Derin tencerenin kapağı kapatılır. Bir kaç et parçası dışarıda bırakılır. (pişmesini kontrol etmek için). Et pişince içine sıcak tuzlu suda bekletilen pirinç salınır. Pilav piştikten sonra ortasına küpeç boşaltılarak servis yapılır. Not: Küpec: Çeşitli boyları olmakla beraber ağız çapı 12-15 cm boyu ise 25-30 cm arasında değişmekte olup altında yaklaşık 1 cm çapında bir delik bulunmaktadır." />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

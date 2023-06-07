@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".beypazari_guveci">
+
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="Ankara Yöresel Yemekleri"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:text="Beypazarı Güveç" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/beyazari_guveci" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="820dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Beypazarı güveci, Ankara’ya özgü bir lezzet olmanın yanı sıra, Türk Mutfağı’nın ağır ateşte pişen etli yemeklerine verilebilecek örneklerden birisidir.
+
+Sırasıyla et, biber, domates ve tereyağını güvece koyduktan sonra eti kapatacak kadar su ilavesi ile hazırlanan güveç ağzı kapatılıp taş fırına verilmektedir. Güvecin odun ateşi ile aynı bölümde bulunduğu fırınlarda yaklaşık 9 saatte, odun ateşi ile pişme alanının altlı üstü olduğu taş fırınlarda ise yaklaşık 15 saatte pişirilmektedir. Odun ateşinin, taş fırının ve güvecin verdiği lezzet ile saatlerce ve ağır ağır pişerek leziz hale gelen etler fırından çıkarılıp, güvecin içine pilavlık pirinç ve karabiber ilave ettikten sonra yaklaşık bir saat kadar daha fırınlanmaktadır.
+
+Kuzu eti ile olduğu gibi, dana eti ile de hazırlanabilen Beypazarı Güveci, bütün bu pişme işlemi tamamlandıktan sonra etli ve sebzeli, oldukça lezzetli bir pilav yemeği olarak servise hazır olup, güveçte birkaç saat sıcak olarak da kalır.
+
+Beypazarı Güveci, lezzetli ve doyurucu olmasının yanı sıra, Beypazarı’nda cenazelerde ve düğün gibi toplumsal birlikteliklerin olduğu zamanlarda da yaptırılan ve ziyaret evine götürülen bir lezzettir. Bu açıdan yöre açısından önemli bir kültürel değer özelliği göstermektedir."
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

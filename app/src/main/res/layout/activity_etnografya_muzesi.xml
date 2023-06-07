@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".etnografya_muzesi"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <TextView
+        android:id="@+id/etnografyamuzesitextid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="Ankara Tarihi Yerler"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="Etnografya Müzesi" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/etnografya_muzesi" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        android:textSize="20sp"
+        android:text="Ankara Etnografya Müzesi, Ankara'nın Altındağ ilçesinde bulunmaktadır. Kurtuluş Savaşı'nda cuma namazlarının kılındığı eski adı Namazgâh Tepesi olan yerde kuruldu.[3] Önceleri Arkeoloji Müzesi olarak kullanılması düşünülmüş, sonra Resim Heykel Müzesi olmasına karar verilmiş, açılış töreninden sonra bugünkü işlevine kavuşmuştur." />
+</LinearLayout>

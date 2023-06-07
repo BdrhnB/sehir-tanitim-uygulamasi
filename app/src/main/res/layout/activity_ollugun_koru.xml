@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ollugun_koru">
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Yöresel Yemekleri"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="Öllüğün Körü" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        app:srcCompat="@drawable/ollugun_koru" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:text="Bir rivayete göre kadının biri evinde peynirli ve kıymalı erişte pişirmiştir. Bunun üzerine de komşusu sorar 'akşama ne yemeği yaptın' diye. Bu soruya sinirlenen kadın elinin körü anlamına gelen 'öllüğün körü' der. Ve bu yemeğin adı o günden bu güne öllüğün körü olarak kalmıştır." />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ankara_tava">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Yöresel Yemekleri"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Ankara Tava" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        app:srcCompat="@drawable/ankara_tava_yemegi" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Ankara Tavası, eski Ankara mutfağına ait bir yemektir. Ankara il sınırları dışında en iyi bilinen yerel yemeklerden biridir. Etli ve sebzeli bir pilav veya şehriye yemeğidir. Çeşitli varyasyonları olmakla beraber, ortak özellik, etler ve sebzelerin kavrulduktan sonra pişirilecek şehriye veya pilava eklenmesi ve etin suyu içinde fırında pişirilmesidir.
+
+Geleneksel olarak düğün, ölüm, hıdrellez, mesire gibi toplanılan özel zamanlarda ve yanında cacık, turşu, salata ya da hoşaf ile yenir. Günümüzde yemekhane ve kafeteryalarda çıkartılan her türlü pilav üzeri etli yemeğe Ankara kebabı denme eğilimi vardır." />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+   </LinearLayout>

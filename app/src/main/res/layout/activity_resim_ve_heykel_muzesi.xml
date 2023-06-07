@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".resim_ve_heykel_muzesi"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <TextView
+        android:id="@+id/resimveheykelmuzesitextid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Ankara Tarihi Yerler"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Resim ve Heykel Müzesi"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/resim_ve_heykel_muzesi" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Cumhuriyetin ilanından sonra Türkiye'de sanat üretimleri artmış, müze kurulmasına duyulan ihtiyaç üzerine yeni rejim 1937'de bir kamu sanat müzesi kurmaya karar vermiştir. 1936 yılında Güzel Sanatlar Akademisi'nde, kurumun müdürü Burhan Toprak tarafından 'Elli Yıllık Türk Sanatı' (ya da 'Yarım Asırlık Türk Resmi') adıyla düzenlenen serginin ardından bu sergiyi müzeye dönüştürme fikri doğmuştu. Müze binası ihtiyacını karşılamak için, cumhurbaşkanı Atatürk’ün emri ile, Dolmabahçe Sarayı Veliaht Dairesi, Güzel Sanatlar Akademisi’ne tahsis edildi. Böylece o devirde bütün büyük Avrupa şehirlerinin takip ettiği Louvre Müzesi modelini izlenerek, İstanbul'da yıkılan rejimi simgeleyen bir yapı yeni ulus devletinin simgesi olarak müzeye dönüştürüldü.
+
+Kurulmakta olan Müze’nin müdürlüğüne Halil Dikmen atandı. Dikmen, kuruluş çalışmaları için oluşturulan komite ile birlikte hazırlıkları yürüttü. “50 Yıllık Türk Resmi Sergisi”nde sergilenen eserlerden Resim Bölümü Başkanı Léopold Lévy’nin görüp beğendikleri, onun isteği ile sanatçılar tarafından bağışlandı. Elde bulunan eserlere ek olarak İstanbul’da ve Ankara’da resmi dairelerde, resmi koleksiyonlarda bulunan eserler Resim ve Heykel Müzesine konulmak üzere bulundukları yerden Milli Eğitim Bakanlığı aracılığıyla istendi. Osmanlı döneminde Müze-i Hümayun bünyesinde oluşturulmuş seksen beş orijinal resimden oluşan Elvah-ı Nakşiye Koleksiyonu ile birlikte 134’ü Akademi hocalarının bağışı olan320 eser toplandı."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

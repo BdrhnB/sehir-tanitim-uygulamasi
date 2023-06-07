@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VizeOdevi"
+        tools:targetApi="31">
+        <activity
+            android:name=".ollugun_koru"
+            android:exported="false" />
+        <activity
+            android:name=".urus_kapama"
+            android:exported="false" />
+        <activity
+            android:name=".beypazari_guveci"
+            android:exported="false" />
+        <activity
+            android:name=".ankara_tava"
+            android:exported="false" />
+        <activity
+            android:name=".ankara_sarmasi"
+            android:exported="false" />
+        <activity
+            android:name=".ankara_yoresel_tatlilari"
+            android:exported="false" />
+        <activity
+            android:name=".ankara_yoresel_yemekleri"
+            android:exported="false" />
+        <activity
+            android:name=".ankara_kalesi"
+            android:exported="false" />
+        <activity
+            android:name=".resim_ve_heykel_muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".koca_tepe_cami"
+            android:exported="false" />
+        <activity
+            android:name=".haci_bayram_muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".etnografya_muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".cumhuriyet_muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".anitkabir"
+            android:exported="false" />
+        <activity
+            android:name=".altin_kosk"
+            android:exported="false" />
+        <activity
+            android:name=".tarihi_yerler"
+            android:exported="false" />
+        <activity
+            android:name=".tarihce"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
